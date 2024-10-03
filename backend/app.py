@@ -3,6 +3,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from backend.api import events
+
 app = FastAPI()
 
 
@@ -18,8 +20,4 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-@app.get("/api")
-def read_root():
-    """Root endpoint for our API."""
-    return {"message": "Hello World"}
+app.include_router(events.router, prefix="/events")
