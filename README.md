@@ -60,3 +60,6 @@ To run this application locally, follow these steps:
    ```
 
 The `run.sh` script is designed to automate the process of building and running your application in Docker containers. Here’s a breakdown of what each part of the script does
+
+
+## FIGMA URL - https://www.figma.com/design/gGNVdwKDWujNFRZ5cGm4Vd/Trail-Blazer
