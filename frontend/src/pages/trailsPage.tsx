@@ -31,7 +31,6 @@ const TrailPage = () => {
   const [trail, setTrail] = useState<TrailInterface>();
 
   useEffect(() => {
-    console.log("Fetching trail data...");
     axios
       .get("api/trails/trails")
       .then((response) => {

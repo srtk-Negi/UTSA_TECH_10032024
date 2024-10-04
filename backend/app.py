@@ -1,9 +1,8 @@
 """Entry module for our FastAPI app."""
 
+from api import events, trails
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
-from backend.api import events, trails
 
 app = FastAPI()
 

@@ -11,7 +11,6 @@ const EventsPage = () => {
       .get("api/events/events")
       .then((response) => {
         setEvents(response.data);
-        console.log(response.data);
       })
       .catch((error) => {
         console.error(error);
