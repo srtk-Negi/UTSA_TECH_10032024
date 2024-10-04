@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
+.prodCard {
+  background-color: #19191d;
+  color: #fefcff;
+  width: 100%;
+}
+
+#header {
+  width: 100%;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: #754f23;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+#header .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#header .menu li {
+  margin: 0 2rem;
+}
+#header .menu .nav-element {
+  color: #fefcff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+#header .menu .nav-element:hover {
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: white;
+}
+#header .menu .nav-element.active {
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: white;
+}
+#header .logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+@media (max-width: 948px) {
+  #header .menu .nav-element {
+    font-size: 1.2rem;
+  }
+  #header .menu li {
+    margin: 0 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  #header .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  #header .menu .nav-element {
+    font-size: 1.5rem;
+  }
+  #header .menu li {
+    margin: 0.4rem 0;
+  }
+}

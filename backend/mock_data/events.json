@@ -1,0 +1,67 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Nature Conservation Workshop",
+      "description": "Learn about local flora and fauna conservation efforts.",
+      "date": "2024-11-15",
+      "time": "09:00 AM - 12:00 PM",
+      "location": "City Park",
+      "image": "https://growforit.ces.ncsu.edu/wp-content/uploads/2021/11/IMG_9862-1024x683.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Trail Cleanup Day",
+      "description": "Join us in cleaning up local hiking trails.",
+      "date": "2024-12-03",
+      "time": "10:00 AM - 02:00 PM",
+      "location": "Green Hills Trailhead",
+      "image": "https://wgme.com/resources/media2/16x9/full/1015/center/80/befa36a6-5736-4fd7-8059-3e52d1adbabc-large16x9_Brunswicktrailcleanup.PNG"
+    },
+    {
+      "id": 3,
+      "title": "Wilderness Survival Basics",
+      "description": "Learn essential skills for surviving in the wilderness.",
+      "date": "2025-02-08",
+      "time": "09:00 AM - 04:00 PM",
+      "location": "National Park Visitor Center",
+      "image": "https://homecamp.com.au/wp-content/uploads/2017/12/wilderness.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Hispanic Heritage Hike",
+      "description": "Celebrate Hispanic Heritage Month with a community hike through scenic trails. Learn about contributions to environmental conservation from Hispanic leaders.",
+      "date": "2024-10-12",
+      "time": "08:00 AM - 01:00 PM",
+      "location": "Sierra Madre Mountains",
+      "image": "https://visitnewlondon.org/wp-content/uploads/2024/09/Hispanic-Heritage-Month-2-1.png"
+    },
+    {
+      "id": 5,
+      "title": "Sustainable Outdoor Cooking: Hispanic Cuisine Edition",
+      "description": "Discover sustainable outdoor cooking techniques inspired by traditional Hispanic cuisine.",
+      "date": "2024-10-22",
+      "time": "02:00 PM - 05:00 PM",
+      "location": "Riverside Park Campsite",
+      "image": "https://static.wixstatic.com/media/5bea53_045613d63c6d4f1f9967411cc8dac30b~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/5bea53_045613d63c6d4f1f9967411cc8dac30b~mv2.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Eco-Friendly Fiesta: Celebrating Hispanic Heritage",
+      "description": "Join us for a family-friendly fiesta celebrating Hispanic culture, with eco-friendly practices. Activities include music, dance, and environmental education.",
+      "date": "2024-10-28",
+      "time": "03:00 PM - 06:00 PM",
+      "location": "Downtown Plaza",
+      "image": "https://wcti12.com/resources/media2/16x9/1280/648/center/90/416bd293-83bb-4a30-987c-c10b6fbca00f-thumb_52131.png"
+    },
+    {
+      "id": 7,
+      "title": "Latinx Leaders in Sustainability Panel",
+      "description": "Hear from influential Latinx leaders in environmental conservation and sustainability during this engaging panel discussion.",
+      "date": "2024-11-05",
+      "time": "06:00 PM - 08:00 PM",
+      "location": "Community Center Auditorium",
+      "image": "https://utfs.io/f/n0xihSNOVGwFSQNbLbmzwFJ3m2ZshBSP1vOiodcIQntDfNLE"
+    }
+  ]
+}

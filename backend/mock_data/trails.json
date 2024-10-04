@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Pine Ridge Trail",
+    "location": "Big Sur, California",
+    "length": 23.5,
+    "difficulty": "Hard",
+    "description": "A scenic hike through the Ventana Wilderness with breathtaking views of the Pacific Ocean and redwood groves.",
+    "image": "https://www.dupageforest.org/hubfs/DuPage2022/Things%20to%20Do/trails-1920x1080-1.jpg",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Angel's Landing",
+    "location": "Zion National Park, Utah",
+    "length": 5.4,
+    "difficulty": "Hard",
+    "description": "A thrilling hike that features steep switchbacks and a narrow ridge with stunning panoramic views of Zion Canyon.",
+    "image": "https://cdn.branchcms.com/voZlvmzLpe-884/images/trails/IMG_20200607_125940-128.1686744492.jpg",
+    "rating": 4.9
+  },
+  {
+    "id": 3,
+    "name": "Mount Lafayette Loop",
+    "location": "White Mountains, New Hampshire",
+    "length": 8.9,
+    "difficulty": "Moderate",
+    "description": "A challenging loop that takes you across the Franconia Ridge with incredible views of the White Mountains.",
+    "image": "https://www.nps.gov/common/uploads/grid_builder/nationaltrailssystem/crop1_1/9EBF09B0-EBA8-DD27-A08B34F2DEA8CDFA.jpg?width=640&quality=90&mode=crop",
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Cascade Canyon Trail",
+    "location": "Grand Teton National Park, Wyoming",
+    "length": 9.7,
+    "difficulty": "Moderate",
+    "description": "A serene trail offering incredible views of the Tetons, alpine lakes, and wildlife, including moose and bears.",
+    "image": "https://www.fayetteville-ar.gov/ImageRepository/Document?documentID=580",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Half Dome Trail",
+    "location": "Yosemite National Park, California",
+    "length": 14.2,
+    "difficulty": "Hard",
+    "description": "An iconic and strenuous hike that culminates in a climb up the famous Half Dome cables for sweeping views of Yosemite Valley.",
+    "image": "https://cdn.branchcms.com/voZlvmzLpe-884/images/trails/GMT_047a.1686744492.jpg",
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "name": "Kalalau Trail",
+    "location": "Na Pali Coast, Hawaii",
+    "length": 11.0,
+    "difficulty": "Hard",
+    "description": "A stunning coastal hike along the Na Pali Coast, featuring remote beaches, lush valleys, and towering sea cliffs.",
+    "image": "https://www.lutsen.com/sites/default/files/styles/scale_1440/public/2021-10/Biking%20-%20Molly%20at%20Britton%20Peak%20-%20VCC%20UL%20-%20by%20Al%20%26%20Lyndsey%20Johnson%20%20%2842%29.jpg?itok=N7pFjnwx",
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "name": "Bright Angel Trail",
+    "location": "Grand Canyon National Park, Arizona",
+    "length": 9.5,
+    "difficulty": "Moderate",
+    "description": "A popular trail that descends into the Grand Canyon, offering breathtaking views and access to the Colorado River.",
+    "image": "https://www.nps.gov/hosp/planyourvisit/images/_DSC7261.jpg?maxwidth=650&autorotate=false",
+    "rating": 4.7
+  },
+  {
+    "id": 8,
+    "name": "Skyline Trail",
+    "location": "Mount Rainier National Park, Washington",
+    "length": 5.5,
+    "difficulty": "Easy",
+    "description": "A loop trail with close-up views of Mount Rainier, wildflower meadows, and occasional sightings of marmots and black bears.",
+    "image": "https://images.seattletimes.com/wp-content/uploads/2024/05/05062024_Cycling_Trails-Snoqualmie_Valley_Trail_142.jpg?d=2040x1360",
+    "rating": 4.5
+  },
+  {
+    "id": 9,
+    "name": "Highline Trail",
+    "location": "Glacier National Park, Montana",
+    "length": 11.8,
+    "difficulty": "Moderate",
+    "description": "A picturesque trail that winds along the Garden Wall, with breathtaking views of Glacier's valleys, alpine meadows, and wildlife.",
+    "image": "https://scmts.imgix.net/33220482584_6378400fa3_k.jpg?ixlib=js-2.3.2&auto=compress%2Cformat&fit=max&crop=faces%2Cedges&q=10&exp=1&con=5&w=420&h=718&dpr=2",
+    "rating": 4.6
+  },
+  {
+    "id": 10,
+    "name": "Teton Crest Trail",
+    "location": "Grand Teton National Park, Wyoming",
+    "length": 40.0,
+    "difficulty": "Hard",
+    "description": "A multi-day backpacking trail that traverses the Teton Range, with stunning views of jagged peaks, alpine lakes, and wildflowers.",
+    "image": "https://floridahikes.com/wp-content/uploads/2023/09/Lake-George-Trail-sign-1600x533.jpg",
+    "rating": 4.9
+  }
+]

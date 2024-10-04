@@ -1,5 +1,6 @@
 """Entry module for our FastAPI app."""
 
+from api import events, trails
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -18,8 +19,5 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-@app.get("/api")
-def read_root():
-    """Root endpoint for our API."""
-    return {"message": "Hello World"}
+app.include_router(events.router, prefix="/api/events")
+app.include_router(trails.router, prefix="/api/trails")
