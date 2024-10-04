@@ -8,7 +8,7 @@ const EventsPage = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/events/events")
+      .get("api/events/events")
       .then((response) => {
         setEvents(response.data);
         console.log(response.data);
@@ -19,8 +19,11 @@ const EventsPage = () => {
   }, []);
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold mb-8 text-center">
+    <div style={{ background: "#F0EADC" }}>
+      <h1
+        className="text-3xl font-bold mb-8 text-center"
+        style={{ color: "BFA37E" }}
+      >
         Upcoming Community Events
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

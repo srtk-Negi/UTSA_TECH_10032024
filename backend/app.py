@@ -3,7 +3,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.api import events
+from backend.api import events, trails
 
 app = FastAPI()
 
@@ -20,4 +20,5 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(events.router, prefix="/events")
+app.include_router(events.router, prefix="/api/events")
+app.include_router(trails.router, prefix="/api/trails")

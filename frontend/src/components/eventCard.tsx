@@ -11,13 +11,13 @@ export interface EventInteface {
 }
 
 export const EventCard = ({ event }: { event: EventInteface }) => (
-  <div className="bg-white rounded-lg shadow-md overflow-hidden">
+  <div className="rounded-lg shadow-md overflow-hidden m-5">
     <img
       src={event.image}
       alt={event.title}
       className="w-full h-48 object-cover"
     />
-    <div className="p-4">
+    <div className="p-4" style={{ background: "#E2CCAF", color: "BFA37E" }}>
       <h3 className="text-xl font-semibold text-gray-600 mb-2">
         {event.title}
       </h3>
